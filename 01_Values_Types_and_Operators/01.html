@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eloquent JavaScript</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -20,8 +21,51 @@
                 return factorial(n -1) * n;
             }
         }
-
         console.log(factorial(8));
+
+        console.log("This is the first line\nAnd this is the second");
+
+        console.log("A newline character is written like this \"\\n\".");
+
+        // Template Literal `${}`
+        console.log(`half of 100 is ${100 / 2}`);
+
+        // Unary Operators typeof
+        console.log(typeof 4.5);
+        console.log(typeof "x");
+
+        // Booleans
+        console.log("Aardvark" < "Zoroaster");
+        console.log("!" === "!");
+        console.log(NaN === NaN);
+
+        // Ternary Operator
+        console.log(true ? 1 : 2);
+        console.log(false ? 1 : 2);
+
+        // Automatic Type Conversion
+        console.log(8 * null); // 0
+
+        var a = "5" - 1;
+        console.log(a); // 4
+        console.log(typeof a); // number
+
+        var b = "5" + 1;
+        console.log(b); // "51"
+        console.log(typeof b); // string
+
+        console.log("five" * 2); // NaN
+
+        console.log(false == 0); // true
+
+        console.log(false === 0); // false
+
+        console.log(null == undefined); // true
+        console.log(null == 0); // false
+
+        // Short-Circuiting og Logical Operators
+
+
 
     </script>
 
